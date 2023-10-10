@@ -1,0 +1,75 @@
+/* Improved CSS for Rock, Paper, Scissors game */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.player {
+    display: inline-block;
+    text-align: center;
+}
+
+.player-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 200px;
+    margin: 10px;
+}
+
+button.rounded-button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.rounded-button:hover {
+    background-color: #0056b3;
+}
+
+/* Make the page responsive */
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+
+    img {
+        max-width: 150px;
+    }
+
+    button.rounded-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
